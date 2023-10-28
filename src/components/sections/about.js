@@ -125,7 +125,26 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Java',
+    'AWS',
+    'DevOps',
+    'Kubernetes',
+    'Python',
+    'Golang',
+    'SpringBoot',
+    'Vert.x',
+    'GCP',
+    'Azure',
+    'Docker',
+    'SQL',
+    'S3',
+    'EC2',
+    'EBS',
+    'ECS',
+    'EMR',
+    'EKS',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +154,22 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Kunal and I enjoy designing and architecting software solutions for
+              different use cases. I started off by having an interest in different programming
+              languages. The journey picked up pace as I learned several paradigms and developed
+              real world software for the companies I worked at. Since then, I have learned,
+              applied, and practiced system architecture in several projects!
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              Fast-forward to today, and I’ve had the privilege of working at a few established
+              software companies like <a href="https://www.adobe.com/">Adobe</a>,{' '}
+              <a href="https://myntra.com/">Myntra</a>, <a href="https://sap.com/">SAP</a>,{' '}
+              <a href="https://www.samsung.com/">Samsung</a>, and{' '}
+              <a href="https://www.forbesindia.com/article/special/medlifes-acquires-myra-medicines-for-express-delivery-and-data-science-capabilities/53373/1">
+                a start-up
+              </a>
+              .
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
